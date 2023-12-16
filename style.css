@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* work-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/work-sans-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* work-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/work-sans-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* work-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/work-sans-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 360px;
+    padding-left: 360px;
+}
+
+body{
+    background-color: #F8EEFF;
+    background-image: url(./Pictures/bg.png);
+    background-repeat: no-repeat;
+}
+
+.card{
+    max-width: 600px;
+}
+
+.title{
+    font-family: 'Work Sans';
+    color: #301534;
+}
+
+.question1_text{
+    font-family: Work Sans;
+    font-weight: 600;
+    color: #301534;
+    cursor: pointer;
+}
+.question1_text:active{
+    color: #AD28EB;
+    transition: 0.3s;
+}
+.question2_text:active{
+    color: #AD28EB;
+    transition: 0.3s;
+}
+.question3_text:active{
+    color: #AD28EB;
+    transition: 0.3s;
+}
+.question4_text:active{
+    color: #AD28EB;
+    transition: 0.3s;
+}
+
+.question1_btn{
+    font-family: Work Sans;
+    font-weight: 700;
+    background-color: #301534;
+    color: #FFF;
+}
+
+.answer{
+    font-family: Work Sans;
+    color: #8B6990;
+}
+
+.question2_text{
+    font-family: Work Sans;
+    font-weight: 600;
+    color: #301534;
+    cursor: pointer;
+}
+.question2_btn{
+    font-family: Work Sans;
+    font-weight: 700;
+    background-color: #AD28EB;
+    color: #FFF;
+}
+
+.question3_text{
+    font-family: Work Sans;
+    font-weight: 600;
+    color: #301534;
+    cursor: pointer;
+}
+.question3_btn{
+    font-family: Work Sans;
+    font-weight: 700;
+    background-color: #AD28EB;
+    color: #FFF;
+}
+
+.question4_text{
+    font-family: Work Sans;
+    font-weight: 600;
+    color: #301534;
+    cursor: pointer;
+}
+.question4_btn{
+    font-family: Work Sans;
+    font-weight: 700;
+    background-color: #AD28EB;
+    color: #FFF;
+}
+
+
+@media screen and (max-width: 400px) {
+    .container{
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .question1_text{
+        max-width: 220px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .question2_text{
+        max-width: 220px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .question3_text{
+        max-width: 220px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .question4_text{
+        max-width: 220px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .question2{
+        margin-top: 20px;
+    }
+    .question3{
+        margin-top: 20px;
+    }
+    .question4{
+        margin-top: 20px;
+    }
+    .line{
+        margin-top: 18px;
+    }
+    .title_img{
+        height: 24px;
+        width: 24px;
+    }
+}
